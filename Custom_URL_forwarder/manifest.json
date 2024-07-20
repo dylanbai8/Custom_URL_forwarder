@@ -11,7 +11,17 @@
     "service_worker": "background.js"
   },
   "options_page": "options.html",
+  "action": {
+    "default_popup": "options.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
   "icons": {
-    "48": "icon.png"
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
   }
 }

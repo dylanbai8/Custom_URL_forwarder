@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "自定义 URL 转发器",
+  "version": "1.0",
+  "description": "将选中的文本转发到自定义 URL",
+  "permissions": [
+    "contextMenus",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "icons": {
+    "48": "icon.png"
+  }
+}
